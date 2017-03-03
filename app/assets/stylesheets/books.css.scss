@@ -1,0 +1,30 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+    background: blue;
+    color: #fff ;
+    a {
+        color:#fff;
+    }
+    a:hover {
+    background: black;
+    }
+}
+
+
+#all_books{
+    height: 1200px;
+}
+
+
+#go_top {
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    background: #fff;
+}
+

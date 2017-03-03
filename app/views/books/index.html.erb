@@ -1,0 +1,43 @@
+
+<%= stylesheet_link_tag "books" %>
+
+
+<p id="notice"><%= notice %></p>
+<section id="all_books">
+  <h1 class="fadeIn" data-wow-delay="1.6s">Books</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @books.each do |book| %>
+      <tr>
+        <td><%= book.title %></td>
+        <td><%= link_to 'Show', book %></td>
+        <td><%= link_to 'Edit', edit_book_path(book) %></td>
+        <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= link_to 'New Book', new_book_path %>
+<%= link_to "Authors" ,  authors_url %>
+<a href="#menu">Menu</a>
+</section>
+
+
+
+
+
+<section id="about">
+  <p>
+    This is all about me who do not give up and forgo his dreams .
+    I am going to do what I can do to get to where I want.
+  </p>
+</section>
+<a href="#menu">Menu</a>
