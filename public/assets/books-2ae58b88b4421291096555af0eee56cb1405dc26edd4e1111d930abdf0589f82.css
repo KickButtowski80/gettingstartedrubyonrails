@@ -1,0 +1,18 @@
+/* line 5, /home/ubuntu/workspace/books/app/assets/stylesheets/books.css.scss */
+body {
+  background: blue;
+  color: #fff;
+}
+/* line 8, /home/ubuntu/workspace/books/app/assets/stylesheets/books.css.scss */
+body a {
+  color: #fff;
+}
+/* line 11, /home/ubuntu/workspace/books/app/assets/stylesheets/books.css.scss */
+body a:hover {
+  background: black;
+}
+
+/* line 17, /home/ubuntu/workspace/books/app/assets/stylesheets/books.css.scss */
+#all_books {
+  height: 1200px;
+}
